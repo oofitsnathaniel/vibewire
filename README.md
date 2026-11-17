@@ -6,7 +6,7 @@
   Free to download and use. Built with Avalonia and LibVLC.
 </p>
 <p align="center">
-  <a href="https://github.com/oofitsnathaniel/vibewire/releases/download/v1.0.0/VibeWire-1.0.0-windows-x64-setup.exe"><strong>Download Vibe Wire 1.0.0 for Windows x64 (.exe)</strong></a><br>
+  <a href="https://github.com/oofitsnathaniel/vibewire/releases/download/v1.0.1/VibeWire-1.0.1-windows-x64-setup.exe"><strong>Download Vibe Wire 1.0.1 for Windows x64 (.exe)</strong></a><br>
   <a href="https://github.com/oofitsnathaniel/vibewire/releases/latest">Latest release</a> ·
   <a href="#screenshots">Screenshots</a> ·
   <a href="#privacy-and-security">Privacy &amp; security</a> ·
@@ -27,7 +27,7 @@ Choose from **Dark**, **Light**, **Halloween**, and **Christmas** themes under *
 
 ## Install and update
 
-1. [Download the Windows x64 installer](https://github.com/oofitsnathaniel/vibewire/releases/download/v1.0.0/VibeWire-1.0.0-windows-x64-setup.exe). Use the `-windows-x64-setup.exe` file from [GitHub Releases](https://github.com/oofitsnathaniel/vibewire/releases).
+1. [Download the Windows x64 installer](https://github.com/oofitsnathaniel/vibewire/releases/download/v1.0.1/VibeWire-1.0.1-windows-x64-setup.exe). Use the `-windows-x64-setup.exe` file from [GitHub Releases](https://github.com/oofitsnathaniel/vibewire/releases).
 2. Run the installer and open Vibe Wire. The Windows package includes its .NET runtime and playback libraries. It targets Windows x64, with an installer minimum of Windows 10 build 17763.
 3. Open **Settings → Integrations** to set up tools such as **yt-dlp**, **FFmpeg**, and **FFprobe** for downloads, conversion, and other tool-assisted tasks.
 4. Open **Settings → Updates → Check for updates** for new releases. **Stable** is the default public feed. Invited testers can select **Private Beta** with a GitHub token from their own account.
