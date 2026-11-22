@@ -13,6 +13,7 @@ Vibe Wire keeps preferences, library paths, playback history, approved tool path
 | **Updates and tool setup** | The update checker reads the current feed from GitHub. Stable needs no GitHub token. Private Beta sends the tester’s own token to GitHub for access. The tool preparation feature downloads selected tools from their configured providers. |
 | **Media downloads and previews** | Tools such as yt-dlp contact the media sites for the URLs you submit. Enabling optional download features may contact their configured services, such as SponsorBlock. |
 | **Metadata lookup** | MusicBrainz and YouTube default to **Local Only**. If you enable an online mode, lookups send the relevant search terms or media link to the provider. TMDB requests use your API Read Access Token and the movie or show search terms. |
+| **Discord Rich Presence** | Off by default. Enabling **Settings → Integrations → Show playback on Discord** sends the current playback title, music artist/album and playback timing or paused state to the installed Discord desktop app through local IPC. If tags are unavailable, the displayed title may come from the filename. Discord can publish this as account activity according to its own settings. Vibe Wire redacts home paths and common sensitive strings; it does not send full file paths, files or credentials. Sharing clears when playback stops, the option is disabled or Vibe Wire closes. No microphone access or Vibe Wire hosting service is used. |
 | **Optional browser integration** | The local API uses a loopback listener and a session token when you enable it. Requests require review in Task Monitor before download. |
 
 The site or service you contact has its own privacy terms. Locally approved third-party tools and scripts run with your user account’s permissions. Choose trusted files and approve them through Settings.
@@ -21,7 +22,7 @@ The site or service you contact has its own privacy terms. Locally approved thir
 
 The in-app updater checks the signature on a release manifest with the public key built into Vibe Wire. It checks the manifest against the expected release and then verifies the size and SHA-256 hash of the downloaded installer before handing it to Windows. The signed metadata is separate from Windows Authenticode.
 
-The Windows 1.0.0 installer is **not Authenticode-signed**. Windows may show an unknown publisher or reputation warning. Use the [official GitHub release](https://github.com/oofitsnathaniel/vibewire/releases/latest). For a manual download, [check the SHA-256](RELEASING.md#release-files) against the checksum on that release.
+The Windows 1.1.0 installer is **not Authenticode-signed**. Windows may show an unknown publisher or reputation warning. Use the [official GitHub release](https://github.com/oofitsnathaniel/vibewire/releases/latest). For a manual download, [check the SHA-256](RELEASING.md#release-files) against the checksum on that release.
 
 ## Bug reports
 
