@@ -36,23 +36,36 @@ The installer currently lacks a Windows Authenticode signature. In-app updates v
 
 ## Screenshots
 
-Captured in Vibe Wire 1.0.0 on Windows using demo media.
+Captured directly from **Vibe Wire 1.1.0** on Windows using demo media in an isolated profile. Click an image to view it at full size. These are authentic application captures, including the native video preview.
 
 | Simple Mode | Advanced Mode |
 | --- | --- |
-| ![Vibe Wire Simple Mode with download link, quality, and save controls](screenshots/simple.jpg) | ![Vibe Wire Advanced Mode with downloads, options, and workspace navigation](screenshots/advanced.jpg) |
+| ![Compact Simple Mode downloader](screenshots/simple-1.1.0.png) | ![Advanced download workspace and navigation](screenshots/advanced-1.1.0.png) |
 
-| Library & Player | Clip Editor |
+| Library & Player | Album browsing |
 | --- | --- |
-| ![Library and media player showing the Moonrise demo track and its album artwork](screenshots/media-player.jpg) | ![Clip Editor showing the Winter Study clip and its thumbnail timeline](screenshots/clip-editor.jpg) |
+| ![Combined library and player with local album artwork and fading audio controls](screenshots/media-player-1.1.0.png) | ![Album cover grid alongside Now Playing](screenshots/albums-1.1.0.png) |
 
-| Dark | Light |
+| Clip Editor | Media Converter |
 | --- | --- |
-| ![Vibe Wire with the Dark theme](screenshots/theme-dark.jpg) | ![Vibe Wire with the Light theme](screenshots/theme-light.jpg) |
+| ![Video preview, thumbnail timeline, precise clip selections and export actions](screenshots/clip-editor-1.1.0.png) | ![Audio, video and image conversion workspace](screenshots/converter-1.1.0.png) |
 
-| Halloween | Christmas |
+<details>
+<summary><strong>Explore the themes and more screens</strong></summary>
+
+Dark is shown above. Choose a different look in **Settings → Appearance**.
+
+| Light | Halloween |
 | --- | --- |
-| ![Vibe Wire with the Halloween theme and Harvest Moon artwork](screenshots/theme-halloween.jpg) | ![Vibe Wire with the Christmas theme and Red School House artwork](screenshots/theme-christmas.jpg) |
+| ![Light theme with album covers and Now Playing](screenshots/theme-light-1.1.0.png) | ![Halloween theme with seasonal header and Happy Halloween greeting](screenshots/theme-halloween-1.1.0.png) |
+
+| Christmas | Task Monitor |
+| --- | --- |
+| ![Christmas theme with seasonal header and Merry Christmas greeting](screenshots/theme-christmas-1.1.0.png) | ![Task Monitor queue and log areas](screenshots/task-monitor-1.1.0.png) |
+
+</details>
+
+Artwork is from the public-domain demo collection. [See artwork credits](THIRD-PARTY-NOTICES.md#artwork-and-metadata).
 
 ## Privacy and security
 
@@ -73,3 +86,4 @@ Vibe Wire is free to download and use. This repository distributes the Windows i
 - [Report a bug or ask for help](https://github.com/oofitsnathaniel/vibewire/issues). Include the app version and steps to reproduce. GitHub issues are public, so leave out access tokens, private paths, and personal details.
 - [Browse release notes and installers](https://github.com/oofitsnathaniel/vibewire/releases).
 - [Understand checksums, signed manifests, and versioning](RELEASING.md).
+
